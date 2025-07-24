@@ -1,0 +1,104 @@
+* {
+    margin: 0px;
+    padding:0px ;
+}
+
+body {
+         background-color: #264653;
+         text-align :center ;
+}
+
+h1  {
+        font-family: Georgia ;
+         color : #e9c46a ;
+         font-weight: 1000;
+         padding: 20px;
+}
+
+p   {
+         font-family :Verdana ;
+         color:lightyellow
+}
+
+.second {
+           margin:15px;
+}
+
+.secondChild {
+               color: rgb(245, 247, 248);
+}
+
+.enter {
+          border-radius: 1px;
+          box-shadow: #151514;
+          padding: 2px;
+          font-weight: bold;
+
+
+}
+.msg {
+        background-color: #2a9d8f;
+        height : 40px;
+        border: 5px solid black;
+        text-align: center;
+        line-height: 40px;
+        font-size: medium;
+        font-style: italic;
+        font-weight: bold;
+}
+
+main {
+     
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.game {
+        height:300px;
+        width:300px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-content: center;
+        align-items: center;
+}
+
+.btn {
+       
+        background-color:#e76f51 ;
+        border-radius: 0.5em;
+        height:80px;
+        width:80px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-content: center;
+        align-items: center;
+        margin:3px;
+        box-shadow: #f4f1de;
+        font-size: 30px;
+        color: #151514;
+        
+}
+
+.fourth {
+          margin: 15px;
+}
+#resetbtn {
+          padding: 10px;
+          background-color: #f4f1de;
+          border-radius: 1px;
+          box-shadow: #f4f1de;
+          color :black ;
+          font-weight: bold;
+}
+
+#newGamebtn {
+          padding: 10px;
+          background-color: #f4f1de; 
+          border-radius: 1px;
+          box-shadow: #f4f1de;
+          color :black ;
+          font-weight: bold;
+}
